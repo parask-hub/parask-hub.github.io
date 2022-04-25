@@ -16,7 +16,7 @@ html {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding:0px;
+    padding:5px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     align-items: center;
     background-color: rgb(255, 255, 255);
@@ -352,6 +352,6 @@ button:hover .liquid {
    .book_btn span{
        font-size: 1.6vw ;
    }
-  
+   
     
 }
