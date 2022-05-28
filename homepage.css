@@ -10,6 +10,7 @@ body{
     position: relative;
 }
 
+
 .header_container{
     display: flex;
     flex-direction: row;
@@ -22,16 +23,17 @@ body{
     box-shadow: 0 8px 8px -4px rgba(87, 135, 151, 0.65);
     z-index: 10;
     width: 100%;
+  
     /* background-color: rgb(0, 255, 81); */
     }
 .main_menu {
     display: flex;
     flex-direction: row;
-    height:85vh;
+    /* height:85vh; */
     padding: 0.7vw 0.7vw 0.7vw 0px;
     background-color: #6baa995e;
     min-width: 18%;
-    overflow: hidden;
+    /* overflow: hidden; */
   
 }
 
@@ -56,7 +58,7 @@ body{
    
 }
 
-.main_menu ul li:hover,.main_menu ul li:active{
+.main_menu ul li:hover{
     border: 2px solid rgb(190, 190, 233);
     border-radius: 0px 30px 30px 0px;
     border-left: 0px;
@@ -173,7 +175,17 @@ button {
     border-radius: 40px;
     border: none;
 }
-
+.main_menu .active{
+     border: 2px solid rgb(190, 190, 233);
+    border-radius: 0px 30px 30px 0px;
+    border-left: 0px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 81, 255);
+    
+}
+a{
+    text-decoration: none;
+}
 
 button span {
     position: relative;
@@ -282,7 +294,7 @@ button:hover .liquid {
     box-shadow: #010111 0 3px 7px inset;
     transform: translateY(2px);
 }
-/*  css for signup and login btn completed */
+
 
 
 @media only screen and (max-width :720px)
@@ -351,6 +363,16 @@ button:hover .liquid {
     }
    .book_btn span{
        font-size: 1.6vw ;
+   }
+   .container{
+       height: 100vh;
+       width: 100vw;
+       display: block;
+   }
+   .container img{
+       height: 300px;
+       width: 200px;
+       display: none;
    }
   
     
